@@ -61,5 +61,7 @@ CMD echo 'hello docker' 3df065bgdff6
 提供独立于容器之外的持久化存储
 ## Registry
 镜像仓库
+## docker-compose
+多容器app
 # kubernetes
 google出品
