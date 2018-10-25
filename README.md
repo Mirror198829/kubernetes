@@ -16,5 +16,20 @@ docker：开源项目，它可以将任何应用以轻量级的形式打包、�
 |docker commit|保存改动为新的image|
 ## dockerfile
 类似配置文件，通过dockerfile可以构建一个image
+#### dockerfile语法
+|命令|用途|
+|---|---|
+|FROM|base image|
+|RUN|执行命令|
+|ADD|添加文件|
+|COPY|拷贝文件|
+|CMD|执行命令|
+|EXPOSE|暴露端口|
+|WORKDIR|指定路径|
+|MAINTAINER|维护者|
+|ENV|设定环境变量|
+|ENTRYPOINT|容器入口|
+|USER|指定用户|
+|VOLUME|mount point|
 # kubernetes
 google出品
