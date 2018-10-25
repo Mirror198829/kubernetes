@@ -31,5 +31,12 @@ docker：开源项目，它可以将任何应用以轻量级的形式打包、�
 |ENTRYPOINT|容器入口|
 |USER|指定用户|
 |VOLUME|mount point|
+#### 镜像分层
+Dockerfile中每一行都产生一个新层。
+``` javascript
+FROM alpine:latest  4e38e38c8ce0
+MAINTAINER xbf  fb1aabf4427b
+CMD echo 'hello docker' 3df065bgdff6
+```
 # kubernetes
 google出品
