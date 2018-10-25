@@ -4,7 +4,6 @@ docker：开源项目，它可以将任何应用以轻量级的形式打包、�
 可以粗糙的理解为轻量级的虚拟机。开挂的chroot  
 Docker与传统虚拟化方式不同在于，只在操作系统层实现虚拟化，只虚拟操作系统而不虚拟内核。  
 Docker是什么呢，白话点说，就是一个Container的管理工具。  
-
 |特性|容器|虚拟机|
 |---|---|---|
 |启动|秒级|分钟级|
@@ -63,5 +62,7 @@ CMD echo 'hello docker' 3df065bgdff6
 镜像仓库
 ## docker-compose
 多容器app
+## 理解资料
+https://segmentfault.com/a/1190000008557309
 # kubernetes
 google出品
