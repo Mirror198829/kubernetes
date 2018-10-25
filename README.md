@@ -10,5 +10,9 @@ docker：开源项目，它可以将任何应用以轻量级的形式打包、�
 |docker images|列出image|
 |docker run|运行container|
 |docker ps|列出container|
+|docker rm|删除container|
+|docker rmi|删除image|
+|docker cp|在host和container之间拷贝文件|
+|docker commit|保存改动为新的image|
 # kubernetes
 google出品
