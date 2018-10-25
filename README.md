@@ -38,5 +38,6 @@ FROM alpine:latest  4e38e38c8ce0
 MAINTAINER xbf  fb1aabf4427b
 CMD echo 'hello docker' 3df065bgdff6
 ```
+镜像分层的好处是当多个dockerfile中有5个镜像分层相同时变可以减少压力
 # kubernetes
 google出品
