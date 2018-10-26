@@ -66,4 +66,6 @@ CMD echo 'hello docker' 3df065bgdff6
 ## 理解资料
 https://segmentfault.com/a/1190000008557309
 # kubernetes
-google出品，以Google Borg为原型
+google出品，以Google Borg为原型，重新实现容器编排调度工具。
+* 2014年开源
+* 2015，谷歌将k8s捐赠给linux基金会下属原生计算基金会-CNCF
