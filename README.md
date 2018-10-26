@@ -1,6 +1,6 @@
 # 发展
 ![avatar](https://mirror198829.github.io/static/docker/appdev.jpg)
-![avatar](https://mirror198829.github.io/static/docker/appdev1.jpg)
+![avatar](https://mirror198829.github.io/static/docker/appdev1.png)
 # docker
 ## 简介
 `docker`：2013年横空出现。  
