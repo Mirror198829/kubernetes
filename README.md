@@ -66,4 +66,4 @@ CMD echo 'hello docker' 3df065bgdff6
 ## 理解资料
 https://segmentfault.com/a/1190000008557309
 # kubernetes
-google出品
+google出品，以Google Borg为原型
