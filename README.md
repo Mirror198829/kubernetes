@@ -69,3 +69,4 @@ https://segmentfault.com/a/1190000008557309
 google出品，以Google Borg为原型，重新实现容器编排调度工具。
 * 2014年开源
 * 2015，谷歌将k8s捐赠给linux基金会下属原生计算基金会-CNCF
+* 2017，战胜swarm和mesos，成为容器管理和调度编排领域的首选平台和事实标准
