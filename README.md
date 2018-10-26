@@ -106,5 +106,5 @@ kubernets提供了对微服务的支撑
 
 ## kubernetes架构与组件
 #### 架构全图
-
+![avatar](https://mirror198829.github.io/static/docker/k1.png)
 
