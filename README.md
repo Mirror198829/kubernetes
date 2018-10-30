@@ -24,6 +24,7 @@
 * 提供部署模型，如A/B、蓝绿部署
 * 提供应用生命周期管理
 * 提供如数据库、消息服务器等服务
+* 提供自服务门户
 # 发展
 ![avatar](https://mirror198829.github.io/static/docker/appdev.jpg)
 ![avatar](https://mirror198829.github.io/static/docker/appdev1.png)
