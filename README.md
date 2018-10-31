@@ -55,6 +55,12 @@ Docker是什么呢，白话点说，就是一个Container的管理工具。
 |ENTRYPOINT|容器入口|
 |USER|指定用户|
 |VOLUME|mount point|
+#### docker镜像
+通过docker images指令来查看本地有哪些镜像  
+* 镜像ID： 每个镜像有一个唯一的ID；长度为64个字符。通常只使用前12个字符
+* 镜像Tag：每个镜像上可以打上一个或多个TAG
+* 镜像Repository:每个镜像存储在一个仓库中  
+* Respository:TAG 唯一标识了一个镜像
 #### 镜像分层
 Dockerfile中每一行都产生一个新层。
 ``` javascript
