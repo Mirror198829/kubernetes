@@ -1,6 +1,29 @@
 # grafana + prometheus
 ### prometheus
 参考文档：https://blog.xizhibei.me/2017/08/06/monitoring-with-prometheus/
+* 时间序列数据库（时序性数据库），
+* 灵活的查询语言
+* 通过`拉`的方式采集数据  
+—————— 采集数据的两个去向  
+1.报警（alertManager）——报警分组、报警抑制、报警静默   
+2.可视化：prometheus放弃了自己的promDash可视化工具。专注于数据采集与分析
+
+#### 为什么要用grafana+prometheus？？
+时间越长，关系型数据库的数据量越大，导致查询缓慢，同时编写这部分统计代码。使用prometheus可以不用绘图逻辑。需要把统计的数据按固定格式传递。
+#### prometheus如何采集到数据并自动监控呢？
+例如paas，是通过promtheus采集k8s库的数据，采集了自己存储起来，对外暴露指标 ，grafana就根据这些指标进行统计
+### grafana的基本概念
+1.datasource
+  数据的存储源（Graphite、InfluxDB、OpenTSDB、Prometheus、Elasticsearch、CloudWatch）
+2.dashboard
+  row的集合
+3.row
+  panel的集合（一行有12个单元）
+4.panel
+  最小的可视化单位，支持多种数据的展示方式，table，graph
+5.playlist
+  dashboard的集合，当控制台数量太多时，用来快速在目标群中切换
+6.Query Editor 查询编辑器
 # openshift
 红帽出品（IBM），基于容器化技术和google的k8s技术之上加固的商业技术。  
 > docker容器管理的要求：
