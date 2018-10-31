@@ -1,3 +1,6 @@
+# grafana + prometheus
+### prometheus
+参考文档：https://blog.xizhibei.me/2017/08/06/monitoring-with-prometheus/
 # openshift
 红帽出品（IBM），基于容器化技术和google的k8s技术之上加固的商业技术。  
 > docker容器管理的要求：
