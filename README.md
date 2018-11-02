@@ -2,6 +2,7 @@
 ![avatar](https://mirror198829.github.io/static/docker/appdev.jpg)
 ![avatar](https://mirror198829.github.io/static/docker/appdev1.png)
 # docker
+参考： http://www.runoob.com/docker/docker-tutorial.html
 ## 简介
 `docker`：2013年横空出现。  
 以Docker为代表的内核容器技术不是新技术，而是将已有技术（LXC,cgroups,Union FS）进行了更好的包装和整合，并形成了一种标准镜像格式。   
